@@ -34,7 +34,6 @@ class AppScreen extends StatelessWidget {
                 crossAxisCount: 4, crossAxisSpacing: 8.0, mainAxisSpacing: 8.0),
             itemBuilder: (context, index) {
               ApplicationWithIcon app = apps[index];
-              print(app.appName);
               return AppGridItem(app: app);
             },
           ),
